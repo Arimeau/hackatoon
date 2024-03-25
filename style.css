@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "SF Pro Text";
+    src: url(fonts/SFProText-Regular.ttf);
+    font-weight: 500;
+    font-style: normal;
+    display: swap;
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url(fonts/SFProText-Light.ttf);
+    font-weight: 500;
+    font-style: normal;
+    display: swap;
+}
+
+body {
+    font-family: "SF Pro Text", sans-serif;
+    max-width: 1440px;
+    background-color: #000000;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    gap: 32px;
+    background-color: black;
+}
+
+.left {
+    display: block;
+    max-width: 500px;
+}
+
+h1 {
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+}
+
+h2 {
+    color: white;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.img {
+    border-radius: 12px;
+    width: 210.85px;
+    height: 210.85px;
+}
+
+.img__end {
+    border-radius: 12px;
+    width: 210.85px;
+    height: 210.85px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    gap: 12px;
+}
+
+.card__yellow {
+    display: flex;
+    background-color: #ffe500;
+}
+
+.card__blue {
+    display: flex;
+    background-color: #37c4ee;
+}
+
+.card__violet {
+    display: flex;
+    background-color: #ff54fd;
+}
+
+.card__text {
+    margin: 0px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.card__endtext {
+    color: white;
+    background-color: #feaefa;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.card__yellow,
+.card__blue,
+.card__violet {
+    display: flex;
+    gap: 12px;
+    border-radius: 12px;
+    padding: 20px;
+  justify-content: space-between;
+}
+
+.card__transparent {
+    display: flex;
+    gap: 12px;
+
+}
